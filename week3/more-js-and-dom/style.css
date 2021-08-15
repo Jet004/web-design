@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+div > input[type="number"] {
+    width: 150px;
+    margin: 5px 0px;
+}
+
+div > input[type="button"] {
+    width: 60px;
+}
+
+div > input, span > input {
+    font-size: 24px;
+}
+
+span > input {
+    width: 285px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 285px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: scroll;
+}

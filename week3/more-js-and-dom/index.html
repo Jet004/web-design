@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main>
+            <div>
+                <input type="number" name="num1" id="num1">
+                <input type="button" value="+" onclick="addNumbers()">
+                <input type="button" value="-" onclick="subtractNumbers()">
+            </div>
+            <div>
+                <input type="number" name="num2" id="num2">
+                <input type="button" value="x" onclick="multiplyNumbers()">
+                <input type="button" value="/" onclick="divideNumbers()">
+            </div>
+            <span>
+                <input type="button" value="Clear" onclick="clearOutput()">
+            </span>
+            <section id="output"></section>
+      </main>
+    </body>
+</html>

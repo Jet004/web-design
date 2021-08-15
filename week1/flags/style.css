@@ -1,0 +1,567 @@
+.flag1 {
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+.flag2 {
+    width: 350px;
+    height: 145px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+.flag3 {
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+.w-100 {
+    width: 100%
+}
+
+.h-150 {
+    height: 150px;
+    float: left;
+}
+
+.h-145 {
+    height: 145px;
+    float: left;
+}
+
+.star-five {
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 18px solid transparent;
+    border-bottom: 13px solid;
+    border-left: 18px solid transparent;
+    transform: rotate(35deg);
+}
+.star-five:before {
+    border-bottom: 15px solid;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -9px;
+    left: -13px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+.star-five:after {
+    position: absolute;
+    display: block;
+    /* color: red; */
+    top: 1px;
+    left: -20px;
+    width: 0px;
+    height: 0px;
+    border-right: 18px solid transparent;
+    border-bottom: 13px solid;
+    border-left: 18px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+
+#ukraine-blue {
+    background-color: darkturquoise;
+    height: 50%;
+}
+
+#ukraine-yellow {
+    background-color: gold;
+    height: 50%;
+}
+
+#yemen-red {
+    background-color: red;
+    height: 50px;
+}
+
+#yemen-white {
+    background-color: white;
+    height: 50px;
+}
+
+#yemen-black {
+    background-color: black;
+    height: 50px;
+}
+
+.latvia-red {
+    background-color: rgb(158, 3, 3);
+    height: 35%
+}
+
+#latvia-white {
+    background-color: white;
+    height: 30%;
+}
+
+.thailand-red {
+    background-color: red;
+    height: 15%;
+}
+
+.thailand-white {
+    background-color: white;
+    height: 15%;
+}
+
+#thailand-blue {
+    background-color: rgb(24, 109, 179);
+    height: 40%;
+}
+
+#mali-green {
+    background-color: rgb(2, 179, 2);
+    width: 83px;
+}
+
+#mali-yellow {
+    background-color: rgb(255, 226, 64);
+    width: 84px;
+}
+
+#mali-red {
+    background-color: red;
+    width: 83px;
+}
+
+#madagascar-red {
+    background-color: rgb(228, 0, 0);
+    height: 50%;
+}
+
+#madagascar-green {
+    background-color:  rgb(2, 161, 2);
+    height: 50%;
+}
+
+#banglagesh {
+    background-color: rgb(40, 129, 79);
+    width: 280px;
+    height: 150px;
+    display: inline-block;
+}
+
+#bangladesh-circle {
+    background-color: firebrick;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 75px;
+}
+
+#laos {
+    background-color: firebrick;
+}
+
+#laos-blue {
+    background-color:  rgb(24, 109, 179);
+    height: 85px;
+    margin-top: 33px;
+}
+
+#laos-circle {
+    background-color: white;
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    position: relative;
+    top: 10px;
+    left: 93px;
+}
+
+#denmark {
+    background-color: rgb(241, 9, 9);
+    width: 250px;
+    height: 180px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+#denmark-h {
+    background-color: white;
+    height: 20px;
+    position: relative;
+    top: 80px;
+}
+
+#denmark-v {
+    background-color: white;
+    height: 180px;
+    width: 20px;
+    position: relative;
+    top: -20px;
+    left: 83px;
+}
+
+#uruguay {
+    width: 250px;
+    height: 144px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+#uruguay-sun {
+    background-color: white;
+    float: left;
+    width: 75px;
+    height: 75px;
+}
+
+#uruguay-white {
+    height: 16px;
+    background-color: white;
+}
+
+#uruguay-blue {
+    height: 16px;
+    background-color: steelblue;
+}
+
+#switzerland {
+    background-color: rgb(241, 9, 9);
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+#switzerland-h {
+    background-color: white;
+    width: 35px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#switzerland-v {
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -75px;
+}
+
+#iceland {
+    background-color: rgb(24, 109, 179);
+    width: 250px;
+    height: 180px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+#iceland-h {
+    background-color: white;
+    height: 30px;
+    position: relative;
+    top: 75px;
+}
+
+#iceland-v {
+    background-color: white;
+    height: 180px;
+    width: 30px;
+    position: relative;
+    top: -30px;
+    left: 78px;
+}
+
+#iceland-h-red {
+    background-color: rgb(241, 9, 9);
+    height: 16px;
+    position: relative;
+    top: 7px;
+    z-index: 1;
+}
+
+#iceland-v-red {
+    background-color: rgb(241, 9, 9);
+    height: 180px;
+    width: 16px;
+    position: relative;
+    left: 7px;
+}
+
+#malta-cross {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 10px;
+}
+
+#malta-red {
+  background-color: rgb(241, 9, 9);
+  width: 50%;
+  height: 150px;
+  float: right;
+}
+
+#nauru {
+    width: 275px;
+    height: 150px;
+    display: inline-block;
+}
+
+#nauru-blue {
+    background-color: rgb(24, 109, 179);
+    height: 45%;
+}
+
+#nauru-yellow {
+    background-color: rgb(255, 226, 64);
+    height: 10%;
+}
+
+#nauru-star {
+    background-image: url(nauruStar.svg);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 40px;
+}
+
+#panama-star-cont {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#panama-star-blue {
+    color: rgb(24, 109, 179);
+    margin: 30px 45px;
+}
+
+#panama-red {
+    background-color: rgb(241, 9, 9);
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#panama-blue {
+    background-color: rgb(24, 109, 179);
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#panama-star-red {
+    color: rgb(241, 9, 9);
+    margin: 30px 45px;
+}
+
+#chile-blue {
+    background-color: rgb(24, 109, 179);
+    width: 75px;
+    height: 75px;
+}
+
+#chile-star-white {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px
+}
+
+#chile-red {
+    background-color: rgb(241, 9, 9);
+    height: 75px;
+}
+
+#sudan {
+    width: 250px;
+    height: 120px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+
+#sudan-maroon {
+    background-color: firebrick;
+    height: 40px
+}
+
+#sudan-black {
+    background-color: black;
+    height: 40px;
+    margin-top: 40px;
+}
+
+#sudan-green {
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid transparent;
+    border-left: 100px solid rgb(2, 161, 2);
+    border-bottom: 60px solid transparent;
+    top: -120px;
+}
+
+#zambia {
+    background-color: rgb(2, 161, 2);
+    position: relative;
+}
+
+#zambia-eagle{
+    background-image: url(zambiaEagle.png);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 30%;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+#zambia-yellow {
+    background-color: gold;
+    width: 30px;
+    height: 60%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#zambia-black {
+    background-color: black;
+    width: 30px;
+    height: 60%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+#zambia-red {
+    background-color: rgb(241, 9, 9);
+    width: 30px;
+    height: 60%;
+    position: absolute;
+    right: 60px;
+    bottom: 0px;
+}
+
+#jamaica {
+    background-color: rgb(255, 226, 64);
+    width: 270px;
+    height: 130px;
+    position: relative;
+    display: inline-block;
+}
+
+#jamaica-top-triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 55px solid rgb(2, 161, 2);
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    position: absolute;
+    left: 15px;
+    top:0px;
+}
+
+#jamaica-left-triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 52px solid transparent;
+    border-left: 120px solid black;
+    border-bottom: 52px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+}
+
+#jamaica-right-triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 52px solid transparent;
+    border-right: 120px solid black;
+    border-bottom: 52px solid transparent;
+    position: absolute;
+    right: 0px;
+    top: 13px;
+}
+
+#jamaica-bottom-triangle {
+    width: 0px;
+    height: 0px;
+    border-bottom: 55px solid rgb(2, 161, 2);
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+}
+
+#congo {
+    background-color: rgb(252, 81, 19);
+    position: relative;
+}
+
+#congo-star {
+    color: gold;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    z-index: 1;
+}
+
+#congo-triangle-top-gold {
+    width: 0px;
+    height: 0px;
+    border-top: 0px solid gold;
+    border-left: 250px solid gold;
+    border-bottom: 113px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#congo-triangle-top-blue {
+    width: 0px;
+    height: 0px;
+    border-top: 0px solid rgb(46, 175, 255);
+    border-left: 234px solid rgb(46, 175, 255);
+    border-bottom: 105px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#congo-triangle-bottom-gold {
+    width: 0px;
+    height: 0px;
+    border-top: 113px solid transparent;
+    border-right: 250px solid gold;
+    border-bottom: 0px solid gold;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#congo-triangle-bottom-blue {
+    width: 0px;
+    height: 0px;
+    border-top: 105px solid transparent;
+    border-right: 234px solid rgb(46, 175, 255);
+    border-bottom: 0px solid rgb(46, 175, 255);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;  
+}

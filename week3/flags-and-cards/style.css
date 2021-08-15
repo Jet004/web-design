@@ -1,0 +1,213 @@
+body {
+    margin: 0px;
+}
+
+body > header, body > section, body > footer {
+    width: 100%;
+}
+
+body > header, body > footer {
+    background-color: lightskyblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body > menu, body > aside, body > nav {
+    background-color: lightsteelblue;
+    width: 29%;
+}
+
+body > menu, body > aside {
+    height: 672px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+body > menu {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+body > aside {
+    position: absolute;
+    right: 0px;
+}
+
+body > nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}
+
+body > article {
+    width: 67%;
+    display: inline-block;
+}
+
+body > section {
+    width: 100%;
+    display: inline-block;
+}
+
+section::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.flag1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+}
+
+
+
+/******* Cards CSS *******/
+
+/* Fonts */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+/* Colours */
+.color-light-gray {background-color: lightgray;}
+.color-silver {background-color: silver;}
+.color-black {background-color: black;}
+.text-white {color: white}
+
+/* Alignment classes */
+.mt-0 {margin-top: 0px;}
+.mt-05 {margin-top: 5px;}
+.mt-1 {margin-top: 10px;}
+.mt-2 {margin-top: 20px;}
+.mt-3 {margin-top: 30px;}
+.mt-4 {margin-top: 40px;}
+.mb-1 {margin-bottom: 10px;}
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.align-left {margin-left: 15px}
+.align-right {
+    float: right;
+    margin-right: 15px;
+}
+.clear {
+    clear: both;
+}
+
+/* Padding */
+.p-10 {padding: 10px;}
+.p-15 {padding: 15px;}
+.p-20 {padding: 20px;}
+.pv-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+section > main {
+    width: 725px;
+    margin: 0px auto;
+}
+
+article > main {
+    width: 68%;
+    margin: 0px auto;
+}
+
+main > main {
+    width: 900px;
+    margin: 0px auto;
+}
+
+main > section > div.card {
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    border: 3px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+main > article {
+
+}
+
+main > article > div.card {
+    width: 200px;
+    height: 300px;
+    margin: 15px 100px;
+    border: 3px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+main > section > div.card > header, main > article > div.card > header {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main > section > div.card .head-block, main > article > div.card .head-block {
+    width: 100%;
+}
+
+main > section > div.card nav, main > article > div.card nav {
+    width: 100%;
+    height: 20px;
+}
+
+main > section > div.card > section, main > article > div.card > section {
+    width: 100%;
+}
+
+main > section > div.card > p, main > article > div.card > p {
+    width: 170px;
+}
+
+.content-img {
+    width: 50%;
+    height: 80px;
+    display: block;
+}
+
+.feature-img {
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+main > section > div.card > footer, main > article > div.card > footer {
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.social-media {
+    width: 7px;
+    height: 7px;
+    float: right;
+    margin-right: 12px;
+}
+
+#card-3 {
+    background-image: linear-gradient(to right, white, gray);
+}
+
+#header-3 {
+    background-image: linear-gradient(to right, lightgray, gray);
+}
+
+#social-media {
+    width: 100px;
+    position: absolute;
+    top: 73px;
+    right: 0px;
+}

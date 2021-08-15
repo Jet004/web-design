@@ -1,0 +1,26 @@
+header, footer {
+    width: 50%;
+    height: 200px;
+}
+
+header {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: purple;
+}
+
+section, article, img {
+    width: 50%;
+    height: 1000px;
+}
+
+section {
+    background-color: lightgreen;
+}
+
+article {
+    background-image: url(images/china.jpg);/*Photo by Paulo Marcelo Martins from Pexels*/
+    background-size: cover;
+}
